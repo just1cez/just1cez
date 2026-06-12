@@ -6,6 +6,14 @@
 
 ---
 
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,git,github,vscode&perline=6" alt="Tech Stack" />
+</p>
+
+---
+
 ## 🐍 Contribution Snake
 
 <p align="center">
