@@ -6,6 +6,16 @@
 
 ---
 
+## 👨‍💻 About Me
+
+- 🎓 Computer Science undergraduate at HITSZ
+- 🔭 I'm currently exploring C/C++, Python, and open source projects
+- 🌱 I'm learning programming, computer science, and software development
+- 🧪 Interested in coding, machine learning, and building useful tools
+- ⚡ Fun fact: I like making my GitHub profile cooler
+
+---
+
 ## 🛠️ Tech Stack
 
 <p align="center">
