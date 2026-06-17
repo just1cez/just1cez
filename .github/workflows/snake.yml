@@ -26,6 +26,15 @@ jobs:
 
       - name: Push snake to output branch
         run: |
+          if git ls-remote --exit-code --heads "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output >/dev/null 2>&1; then
+            git clone --depth 1 --branch output "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output-branch
+            rm -rf output-branch/.git
+            if diff -qr dist output-branch >/dev/null; then
+              echo "No snake changes to publish."
+              exit 0
+            fi
+          fi
+
           cd dist
           git init
           git config user.name "github-actions[bot]"
