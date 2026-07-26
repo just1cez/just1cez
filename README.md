@@ -48,8 +48,9 @@
 
 <div align="center">
 
-<!-- Replace this fallback with /github-metrics.svg after the Metrics workflow completes successfully. -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=just1cez&theme=tokyonight" alt="GitHub profile summary" />
+<picture>
+  <img src="/github-metrics.svg" alt="GitHub metrics">
+</picture>
 
 </div>
 
